@@ -1,0 +1,7 @@
+phar/
+__pycache__/
+*.pyc
+.env
+*.csv
+*.xlsx
+.DS_Store
