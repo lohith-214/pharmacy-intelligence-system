@@ -8,6 +8,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import os
+from pathlib import Path
 
 # ── Page config — must be first ─────────────────────────
 st.set_page_config(
@@ -17,7 +18,7 @@ st.set_page_config(
 )
 
 # ── Constants ────────────────────────────────────────────
-BASE      = "/home/lohitech/pharmacy_intel"
+BASE = Path(__file__).resolve().parent.parent
 PRIMARY   = "#0F4C75"
 SECONDARY = "#34ACE0"
 SUCCESS   = "#27AE60"
@@ -30,16 +31,17 @@ DANGER    = "#E74C3C"
 @st.cache_data(ttl=600)
 def load_data():
     sales = pd.read_csv(
-        f"{BASE}/data/processed/sales_clean.csv",
-        parse_dates=["sales_date"]
+        BASE / "data" / "processed" / "sales_clean.csv",
+    parse_dates=["sales_date"]
     )
     inventory = pd.read_csv(
-        f"{BASE}/data/processed/inventory_clean.csv",
-        parse_dates=["expiry_date"]
+         BASE / "data" / "processed" / "inventory_clean.csv",
+    parse_dates=["expiry_date"]
     )
-    products  = pd.read_csv(f"{BASE}/data/raw/products.csv")
-    customers = pd.read_csv(f"{BASE}/data/processed/customers_clean.csv")
-    branches  = pd.read_csv(f"{BASE}/data/raw/branches.csv")
+    products  = pd.read_csv(products = pd.read_csv(
+    BASE / "data" / "raw" / "products.csv")
+    customers = pd.read_csv(BASE / "data" / "processed" / "customers_clean.csv")
+    branches  = pd.read_csv(BASE / "data" / "raw" / "branches.csv")
     return sales, inventory, products, customers, branches
 
 
