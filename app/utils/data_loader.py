@@ -2,8 +2,11 @@ import pandas as pd
 import streamlit as st
 import os
 
-# Hardcoded to your actual project root — no dirname confusion
+
 BASE = "/home/lohitech/pharmacy_intel"
+
+# NEW — works on any machine
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 @st.cache_data(ttl=600)
 def load_data():

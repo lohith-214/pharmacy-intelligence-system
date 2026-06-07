@@ -1,6 +1,10 @@
-pandas 
-numpy
-plotly
-streamlit
-scikit-learn
-faker
+cat > requirements.txt << 'EOF'
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.15.0
+streamlit>=1.28.0
+prophet>=1.1.4
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+openpyxl>=3.1.0
+EOF
