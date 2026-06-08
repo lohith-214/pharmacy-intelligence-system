@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 # ── Constants ────────────────────────────────────────────
-BASE      = "/home/lohitech/pharmacy_intel"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PRIMARY   = "#0F4C75"
 SECONDARY = "#34ACE0"
 SUCCESS   = "#27AE60"
