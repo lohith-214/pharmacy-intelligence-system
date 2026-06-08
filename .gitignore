@@ -4,10 +4,10 @@ __pycache__/
 .env
 .DS_Store
 
-# Virtual environment
+# Virtual environmen
 phar/
 
-# Keep raw data out (too large) but allow processed
+# Keep raw data out (too large) 
 data/raw/*.csv
 
 # SQL database file
