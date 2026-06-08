@@ -8,7 +8,7 @@ __pycache__/
 phar/
 
 # Keep raw data out (too large) but allow processed
-data/raw/*.csv
+
 
 # SQL database file
 sql/*.db
