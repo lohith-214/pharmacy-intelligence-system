@@ -1,0 +1,71 @@
+product_id,medicine_name,category,unit_price,cost_price,supplier_name,demand_tier
+PRD0001,Amoxicillin 500mg,Antibiotics,148.0,109.54,Abbott India,high
+PRD0002,Azithromycin 250mg,Antibiotics,246.3,164.95,Sun Pharmaceuticals,high
+PRD0003,Ciprofloxacin 500mg,Antibiotics,87.91,51.09,Sun Pharmaceuticals,high
+PRD0004,Doxycycline 100mg,Antibiotics,60.97,44.1,Abbott India,high
+PRD0005,Metronidazole 400mg,Antibiotics,210.31,145.45,Dr. Reddy's Labs,high
+PRD0006,Levofloxacin 500mg,Antibiotics,50.66,37.69,Cipla Ltd,high
+PRD0007,Paracetamol 500mg,Analgesics,151.85,89.97,Cipla Ltd,very_high
+PRD0008,Ibuprofen 400mg,Analgesics,42.55,24.96,Cipla Ltd,very_high
+PRD0009,Diclofenac 50mg,Analgesics,63.11,41.33,Abbott India,very_high
+PRD0010,Aspirin 75mg,Analgesics,84.57,51.44,Sun Pharmaceuticals,very_high
+PRD0011,Tramadol 50mg,Analgesics,114.79,66.34,Abbott India,very_high
+PRD0012,Naproxen 250mg,Analgesics,61.08,38.07,Abbott India,very_high
+PRD0013,Atorvastatin 10mg,Cardiovascular,312.68,221.08,Mankind Pharma,high
+PRD0014,Amlodipine 5mg,Cardiovascular,167.82,109.56,Sun Pharmaceuticals,high
+PRD0015,Metoprolol 50mg,Cardiovascular,389.71,217.96,Mankind Pharma,high
+PRD0016,Losartan 50mg,Cardiovascular,398.26,232.63,Lupin Pharma,high
+PRD0017,Ramipril 5mg,Cardiovascular,91.75,67.87,Sun Pharmaceuticals,high
+PRD0018,Rosuvastatin 10mg,Cardiovascular,600.58,427.42,Sun Pharmaceuticals,high
+PRD0019,Clopidogrel 75mg,Cardiovascular,227.11,129.35,Sun Pharmaceuticals,high
+PRD0020,Telmisartan 40mg,Cardiovascular,441.59,281.75,Cipla Ltd,high
+PRD0021,Metformin 500mg,Diabetes,221.07,143.48,Cipla Ltd,high
+PRD0022,Glimepiride 2mg,Diabetes,123.34,90.27,Mankind Pharma,high
+PRD0023,Insulin Glargine,Diabetes,373.54,254.94,Mankind Pharma,high
+PRD0024,Sitagliptin 100mg,Diabetes,432.56,282.9,Sun Pharmaceuticals,high
+PRD0025,Vildagliptin 50mg,Diabetes,694.58,407.7,Mankind Pharma,high
+PRD0026,Dapagliflozin 10mg,Diabetes,1166.09,822.12,Cipla Ltd,high
+PRD0027,Vitamin C 500mg,Vitamins & Supplements,426.4,310.83,Abbott India,very_high
+PRD0028,Vitamin D3 1000IU,Vitamins & Supplements,293.18,215.3,Abbott India,very_high
+PRD0029,B-Complex,Vitamins & Supplements,94.51,55.68,Abbott India,very_high
+PRD0030,Calcium + D3,Vitamins & Supplements,77.64,47.75,Mankind Pharma,very_high
+PRD0031,Omega-3 Fish Oil,Vitamins & Supplements,211.58,127.85,Lupin Pharma,very_high
+PRD0032,Multivitamin,Vitamins & Supplements,383.21,238.11,Cipla Ltd,very_high
+PRD0033,Iron + Folic Acid,Vitamins & Supplements,169.56,111.66,Lupin Pharma,very_high
+PRD0034,Zinc 50mg,Vitamins & Supplements,114.96,81.67,Mankind Pharma,very_high
+PRD0035,Omeprazole 20mg,Gastroenterology,44.01,32.89,Dr. Reddy's Labs,high
+PRD0036,Pantoprazole 40mg,Gastroenterology,221.92,130.88,Sun Pharmaceuticals,high
+PRD0037,Ondansetron 4mg,Gastroenterology,26.41,18.83,Cipla Ltd,high
+PRD0038,Domperidone 10mg,Gastroenterology,205.25,142.81,Abbott India,high
+PRD0039,Loperamide 2mg,Gastroenterology,221.67,125.2,Lupin Pharma,high
+PRD0040,Lactulose Syrup,Gastroenterology,116.41,66.72,Dr. Reddy's Labs,high
+PRD0041,Salbutamol Inhaler,Respiratory,680.75,459.27,Dr. Reddy's Labs,medium
+PRD0042,Budesonide Inhaler,Respiratory,294.9,165.94,Cipla Ltd,medium
+PRD0043,Montelukast 10mg,Respiratory,280.46,172.49,Cipla Ltd,medium
+PRD0044,Cetirizine 10mg,Respiratory,583.96,395.64,Dr. Reddy's Labs,medium
+PRD0045,Levocetrizine 5mg,Respiratory,698.23,449.97,Sun Pharmaceuticals,medium
+PRD0046,Fexofenadine 120mg,Respiratory,141.71,98.16,Sun Pharmaceuticals,medium
+PRD0047,Clotrimazole Cream,Dermatology,414.75,274.67,Lupin Pharma,medium
+PRD0048,Betamethasone Cream,Dermatology,419.23,271.98,Sun Pharmaceuticals,medium
+PRD0049,Tretinoin Gel,Dermatology,310.0,197.01,Dr. Reddy's Labs,medium
+PRD0050,Terbinafine 250mg,Dermatology,91.18,52.12,Dr. Reddy's Labs,medium
+PRD0051,Ketoconazole Shampoo,Dermatology,93.83,63.55,Mankind Pharma,medium
+PRD0052,Gabapentin 300mg,Neurology,373.21,243.23,Dr. Reddy's Labs,medium
+PRD0053,Pregabalin 75mg,Neurology,898.2,538.79,Sun Pharmaceuticals,medium
+PRD0054,Alprazolam 0.5mg,Neurology,458.19,321.24,Abbott India,medium
+PRD0055,Escitalopram 10mg,Neurology,297.49,168.2,Lupin Pharma,medium
+PRD0056,Donepezil 10mg,Neurology,351.43,204.62,Mankind Pharma,medium
+PRD0057,Paracetamol Syrup,Pediatrics,234.53,166.9,Sun Pharmaceuticals,high
+PRD0058,Amoxicillin Syrup,Pediatrics,169.35,122.66,Lupin Pharma,high
+PRD0059,ORS Sachet,Pediatrics,206.81,121.46,Sun Pharmaceuticals,high
+PRD0060,Zinc Syrup,Pediatrics,226.36,148.92,Mankind Pharma,high
+PRD0061,Multivitamin Drops,Pediatrics,207.64,151.41,Dr. Reddy's Labs,high
+PRD0062,Iron Syrup,Pediatrics,99.96,57.18,Abbott India,high
+PRD0063,Levothyroxine 50mcg,Hormones & Thyroid,206.06,130.93,Mankind Pharma,medium
+PRD0064,Progesterone 200mg,Hormones & Thyroid,545.36,393.83,Dr. Reddy's Labs,medium
+PRD0065,Prednisolone 5mg,Hormones & Thyroid,79.0,51.52,Mankind Pharma,medium
+PRD0066,Testosterone Gel,Hormones & Thyroid,315.01,187.25,Cipla Ltd,medium
+PRD0067,Timolol Eye Drops,Ophthalmology,85.15,52.58,Abbott India,low
+PRD0068,Ciprofloxacin Eye Drops,Ophthalmology,360.87,221.81,Sun Pharmaceuticals,low
+PRD0069,Lubricating Eye Drops,Ophthalmology,218.79,151.1,Sun Pharmaceuticals,low
+PRD0070,Latanoprost Drops,Ophthalmology,166.82,124.17,Abbott India,low
