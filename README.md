@@ -9,7 +9,7 @@
 | Visualization | Matplotlib, Plotly |
 | Database | SQLite |
 | Dashboard | Streamlit |
-| Forecasting | Facebook Prophet |
+| Forecasting | Prophet |
 | Version Control | Git / GitHub |
 
 ---
@@ -47,7 +47,7 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOURUSERNAME/pharmacy-intel.git
+git clone https://github.com/lohith-214/pharmacy-intel.git
 cd pharmacy-intel
 
 # 2. Install dependencies
@@ -69,23 +69,6 @@ python models/forecasting.py
 streamlit run app/streamlit_app.py
 ```
 
----
-
-## 📄 Resume Description
-
-**Retail Pharmacy Sales & Inventory Intelligence System**  
-*Python · Pandas · SQL · Streamlit · Prophet*
-
-- Built an end-to-end analytics platform processing 50,000+ pharmacy 
-  transactions across 8 branches and 74 medicine SKUs
-- Designed relational database schema and wrote 15 advanced SQL queries 
-  using CTEs, window functions, and RFM scoring
-- Developed 4-page interactive Streamlit dashboard with live KPI cards, 
-  Plotly charts, inventory alerts, and dynamic filters
-- Deployed Prophet demand forecasting achieving near-zero MAPE, enabling 
-  6-month forward inventory planning
-- Engineered full pipeline from data generation → cleaning → EDA → 
-  visualization → ML modeling following production best practices
 
 ---
 
