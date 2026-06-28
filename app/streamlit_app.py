@@ -133,7 +133,7 @@ if "Home" in page:
                       margin=dict(t=20, b=60),
                       legend=dict(orientation="h", y=1.08))
     fig.update_yaxes(tickprefix="₹", tickformat=",.0f")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
     st.divider()
 
@@ -152,7 +152,7 @@ if "Home" in page:
         fig2.update_traces(textposition="inside", textinfo="percent")
         fig2.update_layout(height=380, margin=dict(t=20, b=20),
                            legend=dict(font_size=10))
-        st.plotly_chart(fig2, use_container_width=True)
+        st.plotly_chart(fig2, width='stretch')
 
     with col_r:
         st.markdown("### Branch Revenue Ranking")
@@ -175,7 +175,7 @@ if "Home" in page:
         fig3.update_xaxes(tickprefix="₹", tickformat=",.0f")
         fig3.update_layout(height=380, coloraxis_showscale=False,
                            margin=dict(t=20, b=20))
-        st.plotly_chart(fig3, use_container_width=True)
+        st.plotly_chart(fig3, width='stretch')
 
 
 # ══════════════════════════════════════════════════════════
@@ -239,7 +239,7 @@ elif "Sales" in page:
     fig.update_xaxes(tickprefix="₹", tickformat=",.0f")
     fig.update_layout(height=500, yaxis=dict(autorange="reversed"),
                       margin=dict(t=20))
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
     st.divider()
 
@@ -262,7 +262,7 @@ elif "Sales" in page:
                      labels=dict(color="Revenue (₹)"),
                      aspect="auto", template="plotly_white")
     fig3.update_layout(height=320, margin=dict(t=20))
-    st.plotly_chart(fig3, use_container_width=True)
+    st.plotly_chart(fig3, width='stretch')
 
     st.divider()
 
@@ -281,7 +281,7 @@ elif "Sales" in page:
         fig4.update_yaxes(tickprefix="₹", tickformat=",.0f")
         fig4.update_layout(height=320, showlegend=False,
                            margin=dict(t=20))
-        st.plotly_chart(fig4, use_container_width=True)
+        st.plotly_chart(fig4, width='stretch')
 
     with col_r:
         pay_cnt = filtered["payment_method"].value_counts().reset_index()
@@ -290,7 +290,7 @@ elif "Sales" in page:
                       hole=0.45, template="plotly_white",
                       color_discrete_sequence=px.colors.qualitative.Set2)
         fig5.update_layout(height=320, margin=dict(t=20))
-        st.plotly_chart(fig5, use_container_width=True)
+        st.plotly_chart(fig5, width='stretch')
 
 
 # ══════════════════════════════════════════════════════════
@@ -336,7 +336,7 @@ elif "Inventory" in page:
                      template="plotly_white")
         fig.update_layout(height=350, showlegend=False,
                           margin=dict(t=20))
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
     with col2:
         st.markdown("### Stock Value by Category")
@@ -352,7 +352,7 @@ elif "Inventory" in page:
         fig2.update_xaxes(tickprefix="₹", tickformat=",.0f")
         fig2.update_layout(height=350, coloraxis_showscale=False,
                            margin=dict(t=20))
-        st.plotly_chart(fig2, use_container_width=True)
+        st.plotly_chart(fig2, width='stretch')
 
     # ── Near-expiry table ────────────────────────────
     st.divider()
@@ -379,7 +379,7 @@ elif "Inventory" in page:
         return [""] * len(row)
 
     st.dataframe(near.style.apply(color_rows, axis=1),
-                 use_container_width=True, height=400)
+                 width='stretch', height=400)
 
     # ── Low stock table ──────────────────────────────
     st.divider()
@@ -392,7 +392,7 @@ elif "Inventory" in page:
         ]]
         .sort_values("stock_quantity")
     )
-    st.dataframe(low, use_container_width=True, height=300)
+    st.dataframe(low, width='stretch', height=300)
 
 
 # ══════════════════════════════════════════════════════════
@@ -469,7 +469,7 @@ elif "Customer" in page:
         )
         fig.update_yaxes(tickprefix="₹", tickformat=",.0f")
         fig.update_layout(height=380, margin=dict(t=20))
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
     with col2:
         st.markdown("### Revenue by Age Group & Gender")
@@ -484,7 +484,7 @@ elif "Customer" in page:
         )
         fig2.update_yaxes(tickprefix="₹", tickformat=",.0f")
         fig2.update_layout(height=380, margin=dict(t=20))
-        st.plotly_chart(fig2, use_container_width=True)
+        st.plotly_chart(fig2, width='stretch')
 
     # ── Top customers ────────────────────────────────
     st.divider()
@@ -496,4 +496,4 @@ elif "Customer" in page:
         .head(20).copy()
     )
     top_c["monetary"] = top_c["monetary"].apply(lambda x: f"₹{x:,.0f}")
-    st.dataframe(top_c, use_container_width=True, height=400)
+    st.dataframe(top_c, width='stretch', height=400)
